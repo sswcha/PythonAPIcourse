@@ -1,5 +1,6 @@
 
 from pydantic import BaseModel
+from datetime import datetime
 
 
 from app.database import Base
@@ -15,6 +16,6 @@ class PostCreate(PostBase):
 
 class Post(PostBase):
     id: int
-    created_at: str
+    created_at: datetime
     class Config:
         from_attributes = True

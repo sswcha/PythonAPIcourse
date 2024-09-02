@@ -69,7 +69,7 @@ def root():
 def get_posts(db: Session = Depends(get_db)):
 
     posts = db.query(db_models.Post).all()
-    return {"data": posts}
+    return posts
 
 
 # GET ONE POST
@@ -79,18 +79,18 @@ def get_post(id: int, db: Session = Depends(get_db)):
     post = db.query(db_models.Post).filter(db_models.Post.id == id).first()
     if not post:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
-    return {"data": post}
+    return post
 
 
 # CREATE ONE POST
-@app.post("/posts", status_code=status.HTTP_201_CREATED)
+@app.post("/posts", status_code=status.HTTP_201_CREATED, response_model=db_schemas.Post)
 def create_post(post: db_schemas.PostCreate, db: Session = Depends(get_db)):
 
     new_post = db_models.Post(**post.model_dump())
     db.add(new_post)
     db.commit()
     db.refresh(new_post)
-    return {"data":new_post}
+    return new_post
 
 
 # DELETE ONE POST
@@ -117,6 +117,6 @@ def update_post(id: int, post: db_schemas.PostCreate, db: Session = Depends(get_
     
     post_query.update(post.model_dump(), synchronize_session=False)
     db.commit()
-    return {"data": post_query.first()}
+    return post_query.first()
 
     
