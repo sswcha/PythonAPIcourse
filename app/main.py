@@ -1,10 +1,13 @@
 # Set-ExecutionPolicy Unrestricted -Scope Process
+# video link: https://www.youtube.com/watch?v=0sOvCWFmrtA
+# timestamp: 5:51:20
 
 import logging
 import asyncio
 import uvicorn
 import os
 from time import sleep
+from typing import Optional, List
 
 import psycopg2
 from psycopg2.extras import RealDictCursor
@@ -65,7 +68,7 @@ def root():
 ##########################################  POSTS  ##########################################
 
 # GET ALL POSTS
-@app.get("/posts", status_code=status.HTTP_200_OK)
+@app.get("/posts", status_code=status.HTTP_200_OK, response_model=List[db_schemas.Post])
 def get_posts(db: Session = Depends(get_db)):
 
     posts = db.query(db_models.Post).all()
@@ -73,7 +76,7 @@ def get_posts(db: Session = Depends(get_db)):
 
 
 # GET ONE POST
-@app.get("/posts/{id}", status_code=status.HTTP_200_OK)
+@app.get("/posts/{id}", status_code=status.HTTP_200_OK, response_model=db_schemas.Post)
 def get_post(id: int, db: Session = Depends(get_db)):
 
     post = db.query(db_models.Post).filter(db_models.Post.id == id).first()
@@ -107,7 +110,7 @@ def delete_post(id: int, db: Session = Depends(get_db)):
 
 
 # UPDATE ONE POST
-@app.put("/posts/{id}", status_code=status.HTTP_202_ACCEPTED)
+@app.put("/posts/{id}", status_code=status.HTTP_202_ACCEPTED, response_model=db_schemas.Post)
 def update_post(id: int, post: db_schemas.PostCreate, db: Session = Depends(get_db)):
     
     post_query = db.query(db_models.Post).filter(db_models.Post.id == id)
