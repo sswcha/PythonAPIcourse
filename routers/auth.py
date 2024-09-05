@@ -24,7 +24,7 @@ def login(
 
     if not user or not verify_pw(user_credentials.password, user.password):
         raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND, detail="Invalid credentials"
+            status_code=status.HTTP_403_FORBIDDEN, detail="Invalid credentials"
         )
 
     access_token = create_access_token(data={"user_id": user.id})

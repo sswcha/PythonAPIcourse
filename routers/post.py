@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 import models.logging_config
 from models import db_models
 from models import db_schemas
+from app import oauth2
 from app.database import get_db
 from app.utils import *
 
@@ -41,7 +42,11 @@ def get_post(id: int, db: Session = Depends(get_db)):
 
 # CREATE ONE POST
 @router.post("/", status_code=status.HTTP_201_CREATED, response_model=db_schemas.Post)
-def create_post(post: db_schemas.PostCreate, db: Session = Depends(get_db)):
+def create_post(
+    post: db_schemas.PostCreate,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(oauth2.get_current_user),
+):
 
     new_post = db_models.Post(**post.model_dump())
     db.add(new_post)
