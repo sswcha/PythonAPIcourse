@@ -1,6 +1,6 @@
 # Set-ExecutionPolicy Unrestricted -Scope Process
 # video link: https://www.youtube.com/watch?v=0sOvCWFmrtA
-# timestamp: 5:51:20
+# timestamp: 7:25:00
 
 import logging
 import asyncio
@@ -13,24 +13,29 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 
 from fastapi import (
-    FastAPI, WebSocket, Response, 
-    status, WebSocketDisconnect, Request,
-    HTTPException, Depends
+    FastAPI,
+    WebSocket,
+    Response,
+    status,
+    WebSocketDisconnect,
+    Request,
+    HTTPException,
+    Depends,
 )
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from sqlalchemy.orm import Session
- 
+
 import models.logging_config
 from models import db_models
 from models import db_schemas
 from .database import db_engine, get_db
 from .utils import *
-from routers import post, user
+from routers import post, user, auth
 
-#from modules.ConnectionManager import ConnectionManager
+# from modules.ConnectionManager import ConnectionManager
 
 
 ###############################  SETUP  #################################
@@ -39,6 +44,7 @@ from routers import post, user
 app = FastAPI()
 app.include_router(post.router)
 app.include_router(user.router)
+app.include_router(auth.router)
 # SQLalchemy
 db_models.Base.metadata.create_all(bind=db_engine)
 # Logging
@@ -65,6 +71,7 @@ while True:
 """
 ##########################################  ROOT  ##########################################
 
-@app.get("/") 
+
+@app.get("/")
 def root():
     return {"message": "H rld"}

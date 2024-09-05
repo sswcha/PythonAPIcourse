@@ -1,18 +1,11 @@
-
 import logging
 from time import sleep
 from typing import Optional, List
 
-from fastapi import (
-    Response, 
-    status,
-    HTTPException,
-    Depends,
-    APIRouter
-)
+from fastapi import Response, status, HTTPException, Depends, APIRouter
 
 from sqlalchemy.orm import Session
- 
+
 import models.logging_config
 from models import db_models
 from models import db_schemas
@@ -23,12 +16,10 @@ from app.utils import *
 ###############################  SETUP  #################################
 # Logging
 logger = logging.getLogger(__name__)
-router = APIRouter(
-    prefix="/posts",
-    tags=['Posts']
-)
+router = APIRouter(prefix="/posts", tags=["Posts"])
 
 ##########################################  POSTS  ##########################################
+
 
 # GET ALL POSTS
 @router.get("/", status_code=status.HTTP_200_OK, response_model=List[db_schemas.Post])
@@ -73,14 +64,16 @@ def delete_post(id: int, db: Session = Depends(get_db)):
 
 
 # UPDATE ONE POST
-@router.put("/{id}", status_code=status.HTTP_202_ACCEPTED, response_model=db_schemas.Post)
+@router.put(
+    "/{id}", status_code=status.HTTP_202_ACCEPTED, response_model=db_schemas.Post
+)
 def update_post(id: int, post: db_schemas.PostCreate, db: Session = Depends(get_db)):
-    
+
     post_query = db.query(db_models.Post).filter(db_models.Post.id == id)
 
     if not post_query.first():
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
-    
+
     post_query.update(post.model_dump(), synchronize_session=False)
     db.commit()
     return post_query.first()
