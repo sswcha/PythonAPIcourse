@@ -1,6 +1,6 @@
 # Set-ExecutionPolicy Unrestricted -Scope Process
 # video link: https://www.youtube.com/watch?v=0sOvCWFmrtA
-# timestamp: 10:15:00
+# timestamp: 11:40:00
 
 import logging
 
@@ -17,6 +17,7 @@ from fastapi import (
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from fastapi.middleware.cors import CORSMiddleware
 
 import models.logging_config
 from models import db_models
@@ -30,12 +31,25 @@ from routers import post, user, auth, root, vote
 
 # fastAPI app
 app = FastAPI()
+
+origins = ["https://www.google.com",]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*" ]
+)
+
 app.include_router(post.router)
 app.include_router(user.router)
 app.include_router(auth.router)
 app.include_router(root.router)
 app.include_router(vote.router)
-# SQLalchemy
-db_models.Base.metadata.create_all(bind=db_engine)
+
+# SQLalchemy, no longer needed bc we use alembic
+#db_models.Base.metadata.create_all(bind=db_engine)
+
 # Logging
 logger = logging.getLogger(__name__)
