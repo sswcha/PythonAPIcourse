@@ -10,7 +10,7 @@ import models.logging_config
 from models import db_models
 from models import db_schemas
 from app.database import get_db
-from app.utils import *
+from app.utils.utils import *
 
 
 ###############################  SETUP  #################################

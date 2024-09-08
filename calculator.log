@@ -609,3 +609,888 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-09-05 01:03:49,342 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
 2024-09-05 01:03:49,342 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
 2024-09-05 01:03:49,344 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:31:27,300 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:31:27,301 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:31:27,301 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:31:27,303 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:31:53,782 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 15:31:53,782 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 15:31:53,782 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 15:31:53,783 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 15:31:53,783 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 15:31:53,783 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 15:31:53,783 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 15:31:53,783 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 15:31:53,784 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 15:31:53,784 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 15:31:53,784 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 15:31:53,784 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 15:31:53,784 - multipart.multipart - DEBUG - Calling on_part_data with data[225:229]
+2024-09-07 15:31:53,784 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 15:31:53,784 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 15:31:53,795 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 15:31:53,805 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 15:31:53,806 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 15:38:18,356 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:38:18,356 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:38:18,356 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:38:18,359 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:38:46,890 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:38:46,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:38:46,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:38:46,894 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:39:03,247 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:39:03,248 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:39:03,248 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:39:03,251 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:41:40,996 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:41:40,996 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:41:40,996 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:41:40,998 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:44:46,306 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:44:46,307 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:44:46,307 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:44:46,310 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:46:15,614 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:46:15,615 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:46:15,615 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:46:15,617 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:46:39,267 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:46:39,267 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:46:39,268 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:46:39,271 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:47:10,878 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:47:10,879 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:47:10,879 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:47:10,882 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:47:34,333 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:47:34,333 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:47:34,333 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:47:34,336 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:47:54,504 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:47:54,505 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:47:54,505 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:47:54,507 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:48:08,273 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:48:08,273 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:48:08,274 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:48:08,277 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:48:20,363 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:48:20,363 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:48:20,363 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:48:20,367 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:48:46,684 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:48:46,684 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:48:46,684 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:48:46,687 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:49:02,035 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:49:02,036 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:49:02,036 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:49:02,039 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:52:56,547 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 15:52:56,547 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 15:52:56,547 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 15:52:56,549 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 15:52:58,028 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 15:52:58,029 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 15:52:58,029 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 15:52:58,029 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 15:52:58,030 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 15:52:58,030 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 15:52:58,030 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 15:52:58,030 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 15:52:58,030 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 15:52:58,031 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 15:52:58,031 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 15:52:58,031 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 15:52:58,031 - multipart.multipart - DEBUG - Calling on_part_data with data[225:230]
+2024-09-07 15:52:58,031 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 15:52:58,031 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 15:52:58,039 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 15:52:58,040 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 15:52:58,041 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 15:53:03,752 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 15:53:03,753 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 15:53:03,753 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 15:53:03,753 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 15:53:03,754 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 15:53:03,755 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 15:53:03,755 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 15:53:03,755 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 15:53:03,755 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 15:53:03,755 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 15:53:03,755 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 15:53:03,756 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 15:53:03,756 - multipart.multipart - DEBUG - Calling on_part_data with data[225:230]
+2024-09-07 15:53:03,756 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 15:53:03,756 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 16:39:36,424 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:39:36,424 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:39:36,424 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:39:36,428 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:42:15,515 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:42:15,516 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:42:15,516 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:42:15,518 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:43:58,426 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:43:58,426 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:43:58,426 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:43:58,429 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:44:04,525 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 16:44:04,526 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 16:44:04,526 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 16:44:04,526 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 16:44:04,526 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 16:44:04,527 - multipart.multipart - DEBUG - Calling on_part_data with data[225:229]
+2024-09-07 16:44:04,528 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 16:44:04,528 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 16:44:04,548 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 16:44:04,552 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 16:44:04,553 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 16:45:16,084 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:45:16,084 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:45:16,085 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:45:16,088 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:45:48,139 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:45:48,139 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:45:48,139 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:45:48,144 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:46:40,015 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:46:40,015 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:46:40,016 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:46:40,018 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:47:47,018 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:47:47,019 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:47:47,019 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:47:47,023 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:50:10,091 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:50:10,091 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:50:10,092 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:50:10,096 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:52:18,002 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:52:18,003 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:52:18,003 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:52:18,005 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:52:23,871 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 16:52:23,872 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 16:52:23,872 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 16:52:23,872 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 16:52:23,872 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 16:52:23,872 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_part_data with data[225:229]
+2024-09-07 16:52:23,873 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 16:52:23,874 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 16:52:23,881 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 16:52:23,882 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 16:52:23,882 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 16:53:18,480 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:53:18,481 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:53:18,481 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:53:18,483 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:53:32,656 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:53:32,656 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:53:32,656 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:53:32,659 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:53:56,110 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:53:56,110 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:53:56,111 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:53:56,114 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:54:14,903 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:54:14,903 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:54:14,904 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:54:14,906 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:54:27,145 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:54:27,146 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:54:27,146 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:54:27,148 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 16:54:47,782 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 16:54:47,782 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 16:54:47,783 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 16:54:47,785 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 17:08:37,206 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 17:08:37,207 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 17:08:37,207 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 17:08:37,210 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 17:20:38,561 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 17:20:38,562 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 17:20:38,562 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 17:20:38,562 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 17:20:38,563 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 17:20:38,563 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 17:20:38,563 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 17:20:38,563 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 17:20:38,563 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 17:20:38,563 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 17:20:38,563 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 17:20:38,564 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 17:20:38,564 - multipart.multipart - DEBUG - Calling on_part_data with data[225:229]
+2024-09-07 17:20:38,564 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 17:20:38,564 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 17:20:38,568 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 17:20:38,572 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 17:20:38,572 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 18:00:10,250 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:00:10,250 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:00:10,250 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:00:10,253 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:01:17,269 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:01:17,269 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:01:17,270 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:01:17,273 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:05:33,525 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:05:33,525 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 18:05:33,525 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 18:05:33,525 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:05:33,525 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:05:33,525 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 18:05:33,525 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_part_data with data[225:229]
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:05:33,527 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 18:05:33,535 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 18:05:33,536 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 18:05:33,537 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 18:06:26,130 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:06:26,130 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:06:26,131 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:06:26,134 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:07:45,640 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:07:45,640 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:07:45,640 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:07:45,643 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:08:08,451 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:08:08,451 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:08:08,451 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:08:08,454 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:08:42,919 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:08:42,919 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:08:42,919 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:08:42,922 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:10:14,816 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:10:14,816 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:10:14,817 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:10:14,819 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:14:59,050 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:14:59,050 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:14:59,050 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:14:59,054 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:17:42,642 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:17:42,643 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:17:42,643 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:17:42,645 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:17:48,147 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:17:48,147 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:17:48,147 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:17:48,150 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:17:57,224 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:17:57,224 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 18:17:57,225 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 18:17:57,225 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:17:57,225 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:17:57,225 - multipart.multipart - DEBUG - Calling on_part_data with data[105:118]
+2024-09-07 18:17:57,225 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:17:57,225 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:17:57,225 - multipart.multipart - DEBUG - Calling on_header_field with data[174:193]
+2024-09-07 18:17:57,226 - multipart.multipart - DEBUG - Calling on_header_value with data[195:221]
+2024-09-07 18:17:57,226 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:17:57,226 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:17:57,226 - multipart.multipart - DEBUG - Calling on_part_data with data[225:229]
+2024-09-07 18:17:57,226 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:17:57,226 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 18:17:57,235 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 18:17:57,236 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 18:17:57,236 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 18:18:40,107 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:18:40,108 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 18:18:40,108 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 18:18:40,108 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:18:40,108 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:18:40,108 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 18:18:40,108 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:18:40,108 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:18:40,109 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 18:18:40,109 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 18:18:40,109 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:18:40,109 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:18:40,109 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 18:18:40,109 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:18:40,109 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 18:20:52,361 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:20:52,362 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:20:52,362 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:20:52,368 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:21:17,043 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:21:17,043 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:21:17,043 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:21:17,046 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:23:10,758 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:23:10,759 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:23:10,759 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:23:10,761 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:23:54,170 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:23:54,171 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:23:54,171 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:23:54,174 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:24:59,439 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:24:59,440 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:24:59,440 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:24:59,442 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:25:28,238 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:25:28,239 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:25:28,239 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:25:28,241 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:25:36,522 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:25:36,523 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 18:25:36,523 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 18:25:36,523 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:25:36,523 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:25:36,524 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 18:25:36,524 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:25:36,524 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:25:36,524 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 18:25:36,524 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 18:25:36,524 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:25:36,524 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:25:36,525 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 18:25:36,525 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:25:36,525 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 18:25:36,530 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 18:25:36,531 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 18:25:36,532 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 18:25:58,182 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:25:58,183 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 18:25:58,184 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 18:25:58,184 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:25:58,184 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:25:58,184 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 18:25:58,184 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:25:58,184 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 18:27:30,412 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:27:30,412 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:27:30,413 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:27:30,415 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:48:16,073 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:48:16,073 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:48:16,074 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:48:16,077 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:51:12,269 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:51:12,270 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:51:12,270 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:51:12,273 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:53:33,003 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:53:33,003 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:53:33,004 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:53:33,006 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:54:31,874 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:54:31,875 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:54:31,875 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:54:31,878 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:55:25,912 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:55:25,912 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:55:25,913 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:55:25,915 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:55:31,682 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:55:31,682 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:55:31,682 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:55:31,685 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:55:40,384 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:55:40,384 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 18:55:40,384 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 18:55:40,385 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:55:40,385 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:55:40,385 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 18:55:40,385 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:55:40,385 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:55:40,386 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 18:55:40,386 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 18:55:40,386 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:55:40,386 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:55:40,386 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 18:55:40,386 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:55:40,386 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 18:55:40,388 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 18:55:40,390 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 18:55:40,390 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:55:55,793 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 18:55:55,795 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 18:55:55,795 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 18:55:55,795 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 18:55:55,795 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 18:55:55,795 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 18:55:55,795 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 18:55:55,795 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 18:57:27,511 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:57:27,511 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:57:27,512 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:57:27,514 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 18:57:38,429 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 18:57:38,429 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 18:57:38,429 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 18:57:38,433 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:00:17,424 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:00:17,424 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:00:17,424 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:00:17,427 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:02:24,854 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:02:24,855 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:02:24,855 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:02:24,859 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:08:55,954 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:08:55,954 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:08:55,954 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:08:55,958 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:09:45,088 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:09:45,088 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:09:45,088 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:09:45,091 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:10:41,695 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:10:41,695 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:10:41,695 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:10:41,698 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:13:48,939 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:13:48,939 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:13:48,939 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:13:48,942 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:14:43,608 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:14:43,609 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:14:43,609 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:14:43,614 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:16:56,510 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:16:56,511 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:16:56,511 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:16:56,513 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:18:03,756 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:18:03,756 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:18:03,756 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:18:03,759 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:18:36,930 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:18:36,931 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:18:36,931 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:18:36,935 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:19:41,452 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:19:41,452 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:19:41,453 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:19:41,455 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:19:59,596 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:19:59,596 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:19:59,596 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:19:59,599 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:20:20,575 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:20:20,575 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:20:20,575 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:20:20,579 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:20:38,073 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:20:38,074 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:20:38,074 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:20:38,077 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:20:53,794 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:20:53,794 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:20:53,794 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:20:53,797 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:21:22,718 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:21:22,719 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:21:22,719 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:21:22,722 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:22:13,294 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:22:13,294 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:22:13,294 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:22:13,298 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:22:16,361 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:22:16,361 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:22:16,361 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:22:16,364 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:22:33,310 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:22:33,311 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:22:33,311 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:22:33,313 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:25:33,801 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:25:33,801 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:25:33,801 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:25:33,804 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:25:41,640 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:25:41,640 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:25:41,641 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:25:41,643 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:34:14,045 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:34:14,046 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:34:14,046 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:34:14,049 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:37:19,369 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:37:19,369 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:37:19,370 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:37:19,372 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:37:20,744 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:37:20,744 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:37:20,744 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:37:20,747 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:37:21,578 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:37:21,578 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:37:21,578 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:37:21,581 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:37:23,415 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:37:23,416 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:37:23,416 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:37:23,419 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:37:24,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:37:24,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:37:24,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:37:24,894 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:39:08,349 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:39:08,350 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:39:08,350 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:39:08,352 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:39:50,184 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:39:50,185 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:39:50,185 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:39:50,188 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:39:54,957 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 19:39:54,957 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 19:39:54,957 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 19:39:54,957 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 19:39:54,958 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 19:39:54,959 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 19:39:54,959 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 19:39:54,960 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 19:39:54,960 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 19:39:54,960 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 19:39:54,960 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 19:39:54,960 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 19:39:54,960 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 19:39:54,961 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 19:39:54,961 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 19:39:54,971 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 19:39:54,973 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 19:39:54,973 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 19:41:31,296 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:41:31,297 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:41:31,297 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:41:31,300 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:41:51,884 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 19:41:51,885 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 19:41:51,885 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 19:41:51,888 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 19:42:40,042 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 19:42:40,042 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 19:42:40,042 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 19:42:40,042 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 19:42:40,042 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 19:42:40,042 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 19:42:40,042 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 19:42:40,043 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 19:42:40,045 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 19:42:40,046 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 19:42:40,047 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 20:43:29,924 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 20:43:29,925 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 20:43:29,926 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 20:43:29,928 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 20:46:47,677 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 20:46:47,677 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 20:46:47,677 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 20:46:47,680 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:02:34,909 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:02:34,909 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:02:34,910 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:02:34,912 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:04:43,032 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:04:43,032 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:04:43,032 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:04:43,036 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:05:28,327 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 21:05:28,327 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 21:05:28,327 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 21:05:28,327 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 21:05:28,327 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 21:05:28,327 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 21:05:28,328 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 21:05:28,328 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 21:05:28,328 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 21:05:28,328 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 21:05:28,328 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 21:05:28,329 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 21:05:28,329 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 21:05:28,329 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 21:05:28,329 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 21:05:28,334 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 21:05:28,335 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 21:05:28,335 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 21:06:45,122 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:06:45,122 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:06:45,123 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:06:45,125 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:07:26,605 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:07:26,605 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:07:26,605 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:07:26,608 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:12:15,877 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:12:15,878 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:12:15,878 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:12:15,881 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:12:26,256 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:12:26,256 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:12:26,256 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:12:26,259 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:14:16,106 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:14:16,106 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:14:16,107 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:14:16,109 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:48:26,722 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:48:26,722 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:48:26,722 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:48:26,726 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:48:55,363 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 21:48:55,364 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 21:48:55,364 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 21:48:55,364 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 21:48:55,364 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 21:48:55,364 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 21:48:55,364 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 21:48:55,364 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 21:48:55,365 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 21:48:55,365 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 21:48:55,365 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 21:48:55,365 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 21:48:55,365 - multipart.multipart - DEBUG - Calling on_part_data with data[227:232]
+2024-09-07 21:48:55,365 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 21:48:55,365 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 21:48:55,383 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 21:48:55,385 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 21:48:55,385 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 21:51:02,174 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:51:02,175 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:51:02,175 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:51:02,177 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:51:17,693 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:51:17,694 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:51:17,694 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:51:17,696 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:54:22,876 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:54:22,876 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:54:22,877 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:54:22,879 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:55:41,287 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:55:41,287 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:55:41,287 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:55:41,291 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:56:06,522 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:56:06,523 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:56:06,523 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:56:06,526 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 21:57:01,520 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 21:57:01,520 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 21:57:01,520 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 21:57:01,523 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:04:22,778 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:04:22,779 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:04:22,779 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:04:22,782 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:07:39,966 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:07:39,966 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:07:39,966 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:07:39,970 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:29:54,216 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 22:29:54,217 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 22:29:54,217 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 22:30:06,542 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 22:30:06,543 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 22:30:06,543 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 22:30:06,543 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 22:30:06,544 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 22:30:06,544 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_part_data with data[227:233]
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 22:30:06,545 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 22:36:16,783 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:36:16,784 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:36:16,784 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:36:16,786 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:41:03,364 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:41:03,364 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:41:03,365 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:41:03,368 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:41:17,842 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:41:17,843 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:41:17,843 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:41:17,847 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:44:49,367 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:44:49,367 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:44:49,367 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:44:49,369 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:44:54,033 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_header_field with data[54:73]
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_header_value with data[75:101]
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_part_data with data[105:120]
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-09-07 22:44:54,034 - multipart.multipart - DEBUG - Calling on_header_field with data[176:195]
+2024-09-07 22:44:54,035 - multipart.multipart - DEBUG - Calling on_header_value with data[197:223]
+2024-09-07 22:44:54,035 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-09-07 22:44:54,035 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-09-07 22:44:54,035 - multipart.multipart - DEBUG - Calling on_part_data with data[227:233]
+2024-09-07 22:44:54,035 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-09-07 22:44:54,035 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-09-07 22:44:54,047 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\seung\Documents\GitHub\PythonAPIcourse\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-09-07 22:44:54,048 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2024-09-07 22:44:54,048 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2024-09-07 22:45:12,666 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:45:12,666 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:45:12,666 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:45:12,669 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:45:53,637 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:45:53,637 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:45:53,638 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:45:53,641 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:46:01,677 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:46:01,677 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:46:01,677 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:46:01,680 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:46:30,292 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:46:30,292 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:46:30,292 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:46:30,295 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:47:45,155 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:47:45,156 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:47:45,156 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:47:45,159 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:47:55,674 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:47:55,674 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:47:55,674 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:47:55,677 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:51:37,287 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:51:37,287 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:51:37,288 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:51:37,291 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:51:51,229 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:51:51,229 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:51:51,230 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:51:51,232 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:52:12,886 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:52:12,886 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:52:12,886 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:52:12,889 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2024-09-07 22:53:22,723 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2024-09-07 22:53:22,724 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2024-09-07 22:53:22,724 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2024-09-07 22:53:22,727 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
