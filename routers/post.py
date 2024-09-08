@@ -23,7 +23,9 @@ router = APIRouter(prefix="/posts", tags=["Posts"])
 
 
 # GET ALL POSTS
-@router.get("/", status_code=status.HTTP_200_OK, response_model=List[db_schemas.PostOut])
+@router.get(
+    "/", status_code=status.HTTP_200_OK, response_model=List[db_schemas.PostOut]
+)
 def get_posts(
     db: Session = Depends(get_db),
     current_user: db_models.User = Depends(oauth2.get_current_user),

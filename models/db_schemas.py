@@ -59,6 +59,7 @@ class Post(PostBase):
     class Config:
         from_attributes = True
 
+
 class PostOut(BaseModel):
     Post: Post
     votes_count: int
