@@ -1,6 +1,6 @@
 # Set-ExecutionPolicy Unrestricted -Scope Process
 # video link: https://www.youtube.com/watch?v=0sOvCWFmrtA
-# timestamp: 11:40:00
+# timestamp: 13:38:00
 
 import logging
 
