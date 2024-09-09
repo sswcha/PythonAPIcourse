@@ -8,4 +8,4 @@ router = APIRouter(tags=["Root"])
 
 @router.get("/")
 def root():
-    return {"message": "H rld"}
+    return {"message": "Hey broooo:3"}

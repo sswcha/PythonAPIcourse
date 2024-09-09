@@ -5,5 +5,7 @@ import logging
 logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler("calculator.log"), logging.StreamHandler()],
+    handlers=[logging.StreamHandler()],
 )
+
+#handlers=[logging.FileHandler("logs.log"), logging.StreamHandler()],
